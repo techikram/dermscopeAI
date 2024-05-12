@@ -1,0 +1,48 @@
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.upload-content {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.upload-button {
+    background-color: #4070A8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+.upload-button:hover {
+    background-color: #4070A8;
+}
+
+.upload-icon {
+    animation: moveIcons 2s infinite alternate; /* Animación de movimiento */
+}
+
+@keyframes moveIcons {
+    0% {
+        transform: translateX(-1px); /* Mover hacia la izquierda */
+    }
+    100% {
+        transform: translateX(20px); /* Mover hacia la derecha */
+    }
+}
