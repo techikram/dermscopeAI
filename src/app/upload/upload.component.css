@@ -35,14 +35,14 @@
 }
 
 .upload-icon {
-    animation: moveIcons 2s infinite alternate; /* Animación de movimiento */
+    animation: moveIcons 2s infinite alternate; 
 }
 
 @keyframes moveIcons {
     0% {
-        transform: translateX(-1px); /* Mover hacia la izquierda */
+        transform: translateX(-1px); 
     }
     100% {
-        transform: translateX(20px); /* Mover hacia la derecha */
+        transform: translateX(20px); 
     }
 }

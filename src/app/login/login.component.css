@@ -1,14 +1,14 @@
 .login-container {
     max-width: 400px;
-    margin: auto; /* Center horizontally */
+    margin: auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    margin-top: 20vh; /* Adjust the top margin for vertical centering */
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20vh; 
 }
 
 .form-group {
